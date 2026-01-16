@@ -29,7 +29,7 @@ export function AddCategoryModal({ isOpen, onClose, onAdd }: AddCategoryModalPro
     <div className="fixed inset-0 bg-black/40 backdrop-blur-sm flex items-center justify-center z-50 p-4">
       <div className="bg-white/95 backdrop-blur-xl rounded-3xl max-w-md w-full shadow-2xl border border-border">
         <div className="flex items-center justify-between p-4 border-b border-border">
-          <h2>Add Custom Category</h2>
+          <h2>Add Category</h2>
           <button
             onClick={onClose}
             className="p-2 hover:bg-input-background rounded-full transition-colors"

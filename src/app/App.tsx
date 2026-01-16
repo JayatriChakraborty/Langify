@@ -618,7 +618,7 @@ export default function App() {
             <div className="max-w-md mx-auto flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <Globe className="w-6 h-6 text-primary" />
-                <h1>Translate</h1>
+                <h1>Langify</h1>
               </div>
             </div>
           </header>

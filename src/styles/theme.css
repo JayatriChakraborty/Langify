@@ -2,43 +2,43 @@
 
 :root {
   --font-size: 16px;
-  --background: #F2F2F7;
-  --foreground: #000000;
-  --card: #FFFFFF;
-  --card-foreground: #000000;
-  --popover: #FFFFFF;
-  --popover-foreground: #000000;
-  --primary: #007AFF;
-  --primary-foreground: #FFFFFF;
+  --background: #F2F6F8; /**BACKGROUND**/
+  --foreground: #473C33; /**TEXT**/
+  --card: #FEC868; /**idk what changes but it's supposed to be yellow- before FFFFFF**/
+  --card-foreground: #473C33; /**TEXT**/
+  --popover: #FEC868; /**idk what changes but it's supposed to be yellow- before FFFFFF**/
+  --popover-foreground: #473C33; /**TEXT**/
+  --primary: #535366; /**Hover-initially blue**/
+  --primary-foreground: #FEC868; /**idk what changes but it's supposed to be yellow- before FFFFFF**/
   --secondary: #E5E5EA;
-  --secondary-foreground: #000000;
+  --secondary-foreground: #473C33; /**TEXT**/
   --muted: #E5E5EA;
-  --muted-foreground: #8E8E93;
+  --muted-foreground: #8E8E93; /**those unimportant texts in dark gray before in 8E8E93 , BITCH ALSO HANGES THE NAV BAR THINGS**/
   --accent: #E5E5EA;
-  --accent-foreground: #000000;
-  --destructive: #FF3B30;
-  --destructive-foreground: #FFFFFF;
+  --accent-foreground: #473C33; /**TEXT**/
+  --destructive: #DB5B23; /**do not change under any circumstance**/
+  --destructive-foreground: #FEC868; /**idk what changes but it's supposed to be yellow- before FFFFFF**/
   --border: rgba(60, 60, 67, 0.18);
   --input: transparent;
-  --input-background: #F2F2F7;
+  --input-background: #F2F6F8; /**BACKGROUND changes on card**/
   --switch-background: #E5E5EA;
   --font-weight-medium: 600;
   --font-weight-normal: 400;
-  --ring: #007AFF;
-  --chart-1: #007AFF;
+  --ring: #535366; /**Hover-initially blue**/
+  --chart-1: #535366; /**Hover-initially blue**/
   --chart-2: #34C759;
   --chart-3: #FF9500;
-  --chart-4: #FF3B30;
+  --chart-4: #DB5B23; /**do not change under any circumstance**/
   --chart-5: #AF52DE;
   --radius: 0.75rem;
-  --sidebar: #FFFFFF;
-  --sidebar-foreground: #000000;
-  --sidebar-primary: #007AFF;
-  --sidebar-primary-foreground: #FFFFFF;
-  --sidebar-accent: #F2F2F7;
-  --sidebar-accent-foreground: #000000;
+  --sidebar: #FEC868; /**idk what changes but it's supposed to be yellow- before FFFFFF**/
+  --sidebar-foreground: #473C33; /**TEXT**/
+  --sidebar-primary: #535366; /**Hover-initially blue**/
+  --sidebar-primary-foreground: #FEC868; /**idk what changes but it's supposed to be yellow- before FFFFFF**/
+  --sidebar-accent: #F2F6F8; /**BACKGROUND**/
+  --sidebar-accent-foreground: #473C33; /**TEXT**/
   --sidebar-border: rgba(60, 60, 67, 0.18);
-  --sidebar-ring: #007AFF;
+  --sidebar-ring: #535366; /**Hover-initially blue**/
   --success: #34C759;
   --warning: #FF9500;
   --glass-bg: rgba(255, 255, 255, 0.72);
