@@ -593,7 +593,7 @@ export default function App() {
     // Simulate translation with a simple transformation
     if (text) {
       setTimeout(() => {
-        setOutputText(`[Translated: ${text}]`);
+        setOutputText(`${text}`); //home page translated text card
       }, 300);
     } else {
       setOutputText("");
