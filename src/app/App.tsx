@@ -764,45 +764,45 @@ export default function App() {
 
           {/* Bottom Navigation */}
           <nav className="fixed bottom-0 left-0 right-0 bg-white/80 backdrop-blur-xl border-t border-border safe-area-bottom">
-            <div className="max-w-md mx-auto flex items-center justify-around px-4 py-2">
+            <div className="max-w-md mx-auto flex items-center justify-around px-2 py-2">
               <button
                 onClick={() => setActiveTab("translate")}
-                className={`flex flex-col items-center gap-1 py-2 px-6 rounded-xl transition-colors ${
+                className={`flex flex-col items-center gap-1 py-2 px-2 min-w-0 flex-1 rounded-xl transition-colors ${
                   activeTab === "translate" ? "text-primary" : "text-muted-foreground"
                 }`}
               >
-                <Globe className="w-6 h-6" />
-                <span className="text-xs">Translate</span>
+                <Globe className="w-5 h-5" />
+                <span className="text-[10px] leading-tight">Translate</span>
               </button>
               
               <button
                 onClick={() => setActiveTab("phrases")}
-                className={`flex flex-col items-center gap-1 py-2 px-6 rounded-xl transition-colors ${
+                className={`flex flex-col items-center gap-1 py-2 px-2 min-w-0 flex-1 rounded-xl transition-colors ${
                   activeTab === "phrases" ? "text-primary" : "text-muted-foreground"
                 }`}
               >
-                <BookOpen className="w-6 h-6" />
-                <span className="text-xs">Phrases</span>
+                <BookOpen className="w-5 h-5" />
+                <span className="text-[10px] leading-tight">Phrases</span>
               </button>
               
               <button
                 onClick={() => setActiveTab("saved")}
-                className={`flex flex-col items-center gap-1 py-2 px-6 rounded-xl transition-colors ${
+                className={`flex flex-col items-center gap-1 py-2 px-2 min-w-0 flex-1 rounded-xl transition-colors ${
                   activeTab === "saved" ? "text-primary" : "text-muted-foreground"
                 }`}
               >
-                <Star className="w-6 h-6" />
-                <span className="text-xs">Saved</span>
+                <Star className="w-5 h-5" />
+                <span className="text-[10px] leading-tight">Saved</span>
               </button>
               
               <button
                 onClick={() => setActiveTab("settings")}
-                className={`flex flex-col items-center gap-1 py-2 px-6 rounded-xl transition-colors ${
+                className={`flex flex-col items-center gap-1 py-2 px-2 min-w-0 flex-1 rounded-xl transition-colors ${
                   activeTab === "settings" ? "text-primary" : "text-muted-foreground"
                 }`}
               >
-                <Settings className="w-6 h-6" />
-                <span className="text-xs">Settings</span>
+                <Settings className="w-5 h-5" />
+                <span className="text-[10px] leading-tight">Settings</span>
               </button>
             </div>
           </nav>
